@@ -45,6 +45,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     filter: brightness(130%);
+    overflow-x: hidden;
 }
 
 /* --------------------------------------- */
