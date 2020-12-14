@@ -54,8 +54,8 @@
 
     .social-btn:link, .social-btn:visited {
         color: azure;
-        margin: 2% 4.2%;
         font-size: 100%;
+        line-height: 0.8em;
         padding: 1em;
         text-decoration: none;
         border: 2px solid azure;
@@ -64,7 +64,11 @@
         box-shadow: none;
         text-shadow: none;
         width: 50%;
-        display: inline-block;;
+        display: inline-block;
+    }
+
+    .socials-text {
+        display: inline-block;
     }
 }
 
@@ -76,9 +80,11 @@
 
     .OF-button, .OF-button:link, .OF-button:visited {
         width: 60%;
+        font-size: 80%;
     }
 
-    .OF-button, .OF-button:link, .OF-button:visited {
+    .social-btn:link, .social-btn:visited {
+        width: 60%;
         font-size: 80%;
     }
 }
