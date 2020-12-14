@@ -25,9 +25,11 @@ header {
     font-family: "Hind", sans-serif;
     font-size: 1em;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    overflow: hidden;
     color: azure;
     text-align: center;
+    overscroll-behavior: none;
 }
 
 /* --------------------------------------- */
@@ -35,7 +37,7 @@ header {
 /* --------------------------------------- */
 
 .blur-background {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
@@ -45,7 +47,8 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     filter: brightness(130%);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    overflow: hidden;
 }
 
 /* --------------------------------------- */
