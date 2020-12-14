@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Tablets & Laptops (1024px-1200px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Tablets (768px-1023px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Phones/Small Tablets (581px-767px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Phones (481px-580px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 580px) {
+
+    .OF-button, .OF-button:link, .OF-button:visited {
+        padding: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        line-height: 0.8em;
+        border: 2px solid azure;
+        letter-spacing: 1px;
+        border-radius: 2em;
+        width: 50%;
+        display: inline-block;
+    }
+    .OF-container {
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Small Phones (0-480px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {
+
+    .OF-button, .OF-button:link, .OF-button:visited {
+        width: 60%;
+    }
+
+    .OF-button, .OF-button:link, .OF-button:visited {
+        font-size: 80%;
+    }
+}

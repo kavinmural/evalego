@@ -1,0 +1,153 @@
+/* MAIN CSS FILE */
+
+/* --------------------------------------- */
+/* ----- SETUP ----- */
+/* --------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body,
+html,
+header {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Hind", sans-serif;
+    font-size: 1em;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: azure;
+    text-align: center;
+}
+
+/* --------------------------------------- */
+/* ----- HEADER ----- */
+/* --------------------------------------- */
+
+.blur-background {
+    height: 100vh;
+    width: 100%;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
+    background-size: cover;
+    background-position: center 24%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(130%);
+}
+
+/* --------------------------------------- */
+/* ----- CONTAINERS ----- */
+/* --------------------------------------- */
+
+.text-container {
+    font-size: 10vw;
+    height: 100%;
+    letter-spacing: 0.3em;
+    vertical-align: middle;
+    margin: auto;
+    cursor: default;
+}
+
+.socials-container, .OF-container{
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.OF-container {
+    font-weight: bolder;
+    margin-bottom: 2.5%;
+}
+
+.OF-container a:link, a:visited {
+    text-decoration: none;
+    color: azure;
+}
+
+.filler-container {
+    height: 30%;
+    width: 100%;
+}
+
+/* --------------------------------------- */
+/* ----- TEXT ----- */
+/* --------------------------------------- */
+
+
+/* --------------------------------------- */
+/* ----- BUTTONS ----- */
+/* --------------------------------------- */
+
+.social-btn:link, .social-btn:visited {
+    color: azure;
+    margin: 2% 4.2%;
+    font-size: 190%;
+    padding: 1% 1.2%;
+    text-decoration: none;
+    border: 2px solid azure;
+    border-radius: 25%;
+    min-width: 5%;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    box-shadow: 0 0.8em 0.8em -0.60em rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0 1em azure;
+    transition: all 0.5s ease;
+}
+
+
+.social-btn:hover, .social-btn:active {
+    opacity: 0.5;
+    transform: scale(1.1);
+    box-shadow: 0 30px 45px -15px azure;
+}
+
+.OF-button, .OF-button:link, .OF-button:visited {
+    margin: 0.4em;
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    line-height: 3em;
+    text-decoration: none;
+    border: 2px solid azure;
+    letter-spacing: 2px;
+    border-radius: 2em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.OF-VIP {
+    background-color: #1b99d5;
+}
+
+.OF-VIP:hover {
+    box-shadow: 0px 0px 10px 2px rgb(46, 198, 236, 0.5), 0.5rem 0.5rem 20px rgb(46, 198, 236, 0.5);
+}
+
+.OF-FREE {
+    border: 2px solid #1b99d5;
+}
+
+.OF-FREE:hover {
+    color: azure;
+    background-color: rgb(46, 198, 236, 0.5);
+}
