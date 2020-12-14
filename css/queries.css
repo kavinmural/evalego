@@ -37,9 +37,34 @@
         border-radius: 2em;
         width: 50%;
         display: inline-block;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
     }
+
     .OF-container {
         text-align: center;
+        margin-bottom: 0;
+    }
+
+    .OF-button:hover, .OF-button:active {
+        transform: scale(1.1);
+    }
+
+    .social-btn:link, .social-btn:visited {
+        color: azure;
+        margin: 2% 4.2%;
+        font-size: 100%;
+        padding: 1em;
+        text-decoration: none;
+        border: 2px solid azure;
+        border-radius: 2em;
+        min-width: 5%;
+        box-shadow: none;
+        text-shadow: none;
+        width: 50%;
+        display: inline-block;;
     }
 }
 

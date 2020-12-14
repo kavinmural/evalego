@@ -103,10 +103,9 @@ header {
     border-radius: 25%;
     min-width: 5%;
     opacity: 0.9;
-    transition: opacity 0.5s;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     box-shadow: 0 0.8em 0.8em -0.60em rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
