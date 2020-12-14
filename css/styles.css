@@ -26,7 +26,6 @@ header {
     font-size: 1em;
     text-rendering: optimizeLegibility;
     overflow-x: hidden !important;
-    overflow: hidden;
     color: azure;
     text-align: center;
     overscroll-behavior: none;
@@ -37,7 +36,7 @@ header {
 /* --------------------------------------- */
 
 .blur-background {
-    height: 100%;
+    height: 100% !important;
     width: 100%;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)),url(../img/evalego.jpg);
@@ -48,7 +47,6 @@ header {
     background-attachment: fixed;
     filter: brightness(130%);
     overflow-x: hidden !important;
-    overflow: hidden;
 }
 
 /* --------------------------------------- */
